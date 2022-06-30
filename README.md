@@ -9,3 +9,5 @@ The weather will be updated every 15 seconds. If there is no connection it will 
 'Atualizado em' shows the last update for the weather. 
 
 The background color for the weather is determinated by the air quality just as on the site accuweather.com.
+
+Update: Fixed language from pt-pt to pt-br
