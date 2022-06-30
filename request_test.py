@@ -2,7 +2,7 @@
 import bs4, requests
 def weat():
     # Set headers
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0"}
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0", "Accept-Language":"pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3"}
     # Link to accuweather in the right location.
     link = 'https://www.accuweather.com/pt/br/santa-m%C3%B4nica/2728202/weather-forecast/2728202'
     # Get page and soup it.

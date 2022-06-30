@@ -28,7 +28,7 @@ def weather():
 
     # Create Label for weather.
     temper_label = Label(root, bg=weat[3], border=0, width=4, fg='black', text=weat[0], font=('Arial', 40))
-    tempo_label = Label(root, bg=weat[3], border=8, width=0, fg='black', text=weat[1].replace('soalheiro','\n ensolarado'), font=('Arial', 20))
+    tempo_label = Label(root, bg=weat[3], border=8, width=0, fg='black', text=weat[1], font=('Arial', 20))
     titulo_label = Label(root, bg=weat[3], border=0, width=0, height=0, fg='black', text=f'Qualidade do ar:\n', font=('Arial', 13))
     quali_label = Label(root, bg=weat[3], border=0, width=0, height=0, fg='black', text=weat[2], font=('Arial', 18))
     atu_label = Label(root, bg=weat[3], border=0, width=0, height=0, fg='black', text=f'Atualizado em: {atualizado}', font=('Arial', 8))
